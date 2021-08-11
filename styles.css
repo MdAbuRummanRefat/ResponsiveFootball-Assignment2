@@ -57,6 +57,34 @@ a.button:hover {
   width: 556px;
 }
 
+/* highlight Feature Section styles*/
+section#featured_area {
+  color: var(--black);
+  padding-top: 2%;
+  padding-bottom: 7%;
+}
+.featured-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featured-left {
+  padding-right: 66px;
+}
+.featured-left h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+}
+.featured-left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+.featured-right img {
+  width: 567px;
+}
+
 /* player list styles */
 .player-list-inner{
     display: grid;
