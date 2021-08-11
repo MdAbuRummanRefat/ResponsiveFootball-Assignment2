@@ -9,6 +9,53 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.container {
+  padding: 0px 8%;
+}
+/* Banner Section styles*/
+#banner_area {
+  background: #2d25a0;
+  color: #fff;
+  padding-top: 5%;
+  height: 100vh;
+}
+.banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-left h2 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+}
+
+@keyframes btn_animation {
+  0% {
+    box-shadow: inset -7em 0 0 0 #6c6c6c, inset 7em 0 0 0 #6c6c6c;
+    transform: translateY(0em);
+  }
+}
+a.button {
+  background: #e02c6d;
+
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 24px;
+  font-weight: 400;
+  margin-top: 27px;
+  display: inline-block;
+  transition: background ease 1s;
+}
+a.button:hover {
+  -webkit-animation: btn_animation 2s;
+  -moz-animation: btn_animation 2s;
+  -o-animation: btn_animation 2s;
+  animation: btn_animation 2s;
+}
+.banner-right img {
+  width: 556px;
+}
 
 /* player list styles */
 .player-list-inner{
