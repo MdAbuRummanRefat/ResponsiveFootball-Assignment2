@@ -40,3 +40,36 @@ body {
     font-weight: 400;
     color: gray;
 }
+
+/* footer styles */
+footer {
+  text-align: center;
+  padding: 5%;
+}
+.footer_info img {
+  width: 483px;
+}
+.footer_social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer_social a {
+  height: 32px;
+  background: #e7e7e8;
+  color: #969bab;
+  border-radius: 24px;
+  width: 32px;
+  margin: 0 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.social-inner {
+  display: flex;
+}
+.copyright {
+  margin-top: 20px;
+}
